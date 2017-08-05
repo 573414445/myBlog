@@ -1,0 +1,260 @@
+body,img,ul,li{
+    padding: 0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*头部导航栏*/
+.header-nav{
+    height: 56px;
+    background-color: #fbf2eb;
+}
+.nav{
+    display: inline-block;
+    width: 50%;
+    float:left;
+    margin-left: 360px;
+    margin-top:17px;
+}
+.nav ul>li{
+    position: relative;
+    display: inline;
+    padding: 12px;
+}
+.nav li>a{
+    transition:0.5s;
+    font-family: "Josefin Slab", Arial, serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#828282;
+}
+.nav li>a:hover{
+    transition: 0.5s;
+    color:#000;
+}
+.nav li .border{
+    position: absolute;
+    left:29px;
+    top:37px;
+    width: 0px;
+    height:0px;
+    border: 8px solid;
+    border-color: transparent transparent #000 transparent;
+    display: none;
+}
+.nav li .down{
+    border-radius: 6px;
+    width:140px;
+    position: absolute;
+    left:0;
+    top:52px;
+    background-color: #000;
+    display: none;
+    box-shadow: 6px 6px 25px #888888;
+    z-index: 10;
+}
+
+.nav li .down ul{
+    padding-left:13px;
+}
+.nav li .down a{
+    font-family: "Josefin Slab", Arial, serif;
+    font-weight: 400;
+    font-size: 13px;
+    color:#828282;
+    display: block;
+    margin-top: 12px;
+   margin-bottom: 12px;
+    transition: 0.5s;
+
+}
+.nav li .down a:hover{
+    color:#ffffff;
+    transition: 0.5s;
+}
+
+#body1 .home_a{
+    border-bottom: 1px solid #1d2f3b;
+    padding-bottom: 20px;
+}
+#body2 .blob_a{
+    border-bottom: 1px solid #1d2f3b;
+    padding-bottom: 20px;
+}
+#body3 .about_a{
+    border-bottom: 1px solid #1d2f3b;
+    padding-bottom: 20px;
+}
+#body4 .contact_a{
+    border-bottom: 1px solid #1d2f3b;
+    padding-bottom: 20px;
+}
+.nav-right{
+    display: inline-block;
+    width: 20%;
+    float:left;
+    margin-left: 37px;
+    margin-top:17px;
+}
+.nav-right li{
+    display: inline;
+    padding: 4px;
+}
+
+
+/*圆形图像部分 class="content-1"*/
+.content-1{
+    position: relative;
+    height:214px;
+}
+.content-1 .circle{
+    position: absolute;
+    top:30px;
+    left:880px;
+    height:150px;
+    width:150px;
+    background-color: #fbf2eb;
+    border-radius: 100px;
+    border:1px solid #000000;
+}
+.circle h1{
+    height: 30px;
+    margin-left:10px;
+    font-family: "hakuyoxingshu7000";
+    font-size: 50px;
+    font-weight: 700;
+}
+.circle h1 a{
+    color:#000000;
+}
+.circle small{
+    color:#1d2f3b;
+    font-family: "Josefin Slab", Arial, serif;
+    margin-left:38px;
+ }
+
+
+
+/*轮播图部分*/
+.content-2{
+    width:1170px;
+    height:600px;
+    margin:0 auto;
+    position: relative;
+}
+.content-2 .slideshow{
+    width:750px;
+    height: 100%;
+    position: absolute;
+    left:0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.slideshow .img{
+    position:absolute;
+    left:0;
+    width:5000px;
+}
+.slideshow .img li{
+    float:left;
+}
+.content-2 .slideshow .img img{
+    width: 750px;
+    height:600px;
+    opacity: 0.7;
+}
+ .slideshow .num{
+    width: 750px;
+    position: absolute;
+     bottom:15px;
+     text-align: center;
+     font-size: 0;
+}
+
+.slideshow .num li{
+    display: inline-block;
+    width: 12px;
+    height:12px;
+    background-color: #ffffff;
+    opacity: 0.4;
+    border-radius: 100px;
+    margin:0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.slideshow .num li.on{
+    transition: 0.5s;
+    border:1px solid #ffffff;
+    background-color: transparent;
+}
+.text{
+    font-size: 35px;
+    font-family: "Josefin Slab", Arial, serif;
+    color: #ffffff;
+    line-height: 600px;
+    display: none;
+}
+.slideshow .img .img-text1{
+    position: absolute;
+    left:55px;
+    top:10px;
+}
+.slideshow .img .img-text2{
+    position: absolute;
+    left:835px;
+    top:10px;
+}
+.slideshow .img .img-text3{
+    position:absolute;
+    left:1600px;
+    top:10px;
+
+}
+
+/*轮播图右边部分*/
+.content-2-right{
+    width:390px;
+    height: 600px;
+
+    float: right;
+}
+.right-top{
+    width: 390px;
+    height:285px;
+    background:url("../images/img_bg_1.jpg");
+    background-size: 390px 285px;
+}
+.content-2-bg{
+    width:390px;
+    height: 285px;
+    background-color: #ffffff;
+    opacity:0.7;
+}
+ .right-top-bg{
+    display: none;
+
+}
+ .right-bottom-bg{
+     display: none;
+ }
+ .right-text{
+    color: #000000;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    height:50%;
+    padding-top: 75px;
+}
+.right-bottom{
+    width:390px;
+    height: 285px;
+    margin-top: 30px;
+    background: url("../images/img_bg_3.jpg");
+    background-size: 390px 285px;
+}
