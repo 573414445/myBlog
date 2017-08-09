@@ -1,4 +1,4 @@
-body,img,ul,li{
+body,img,ul,li,div,h1{
     padding: 0;
     margin:0;
 }
@@ -257,4 +257,120 @@ ul{
     margin-top: 30px;
     background: url("../images/img_bg_3.jpg");
     background-size: 390px 285px;
+}
+
+/*content-3分割线部分*/
+.content-3{
+    width:1170px;
+    height: 160px ;
+    margin:50px auto;
+    position: relative;
+}
+
+.content-3 .hr-1{
+    width: 100%;
+    height:1px;
+    background-color: black;
+    margin-top:80px;
+    display: inline-block;
+}
+.content-3 .ct3-container{
+    width:254px;
+    height:100px;
+    background-color:#fbf2eb;
+    position: absolute;
+    left:453px;
+    top:30px;
+    border: 1px solid #000000;
+}
+.ct3-container h2{
+    text-align: center;
+    font-family: hakuyoxingshu7000;
+    font-size: 35px;
+    font-weight: 100;
+    color:#1d2f3b;
+}
+
+/*content-4*/
+.content-4{
+    width: 1170px;
+    height: 319px;
+    margin:0 auto;
+    text-align: center;
+}
+.content-4 .public-page{
+    width:262px;
+    height:100%;
+    border: 1px solid rgba(64,64,64,0.2) ;
+    display: block;
+    float: left;
+    margin-right: 28px;
+}
+.content-4 img{
+    width:262px;
+    height:187px;
+}
+.content-4 span{
+    font-family: "Segoe Script";
+    font-size: 20px;
+    line-height:132px;
+}
+
+
+/*content-5*/
+.content-5{
+    width:1170px;
+    height:2873px;
+    margin: 0 auto;
+    margin-top:150px;
+}
+.ct5-left{
+    width:830.5px;
+    height:100%;
+    background-color:#888888;
+    text-align: center;
+}
+.ct5-left .ct5-left-1{
+    width:100%;
+    height:1067px;
+    background-color: yellow;
+    display: block;
+}
+
+.ct5-left-1 .ct5-left-11{
+    width:100%;
+    height:125px;
+    position: relative;
+}
+.ct5-left-11 .ct5-left-1-line1{
+     width:100px;
+     height:1px;
+     background-color:#888888;
+     position: absolute;
+     left:265px;
+     bottom:30px;
+    opacity: 0.3;
+ }
+.ct5-left-11 .ct5-left-1-line2{
+    width:100px;
+    height:1px;
+    background-color:#888888;
+    position: absolute;
+    right:265px;
+    bottom:30px;
+    opacity: 0.3;
+}
+.ct5-left-11 .ct5-left-1-title{
+    width: 100%;
+    height:100px;
+}
+
+.ct5-left-1-title span{
+    font-family:"Tekton Pro";
+    color:#888888;
+}
+.ct5-left-1-title h1{
+    font-family: "Tekton Pro";
+    color:#000000;
+    margin:10px auto;
 }
