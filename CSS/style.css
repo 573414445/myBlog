@@ -1,4 +1,4 @@
-body,img,ul,li,div,h1{
+body,img,ul,li,div{
     padding: 0;
     margin:0;
 }
@@ -258,7 +258,36 @@ ul{
     background: url("../images/img_bg_3.jpg");
     background-size: 390px 285px;
 }
-
+/*其余页面的分割线部分*/
+.content-33{
+    width:1170px;
+    height: 160px ;
+    margin:0 auto;
+    position: relative;
+}
+.content-33 .hr-1{
+    width: 100%;
+    height:1px;
+    background-color: black;
+    margin-top:80px;
+    display: inline-block;
+}
+.content-33 .ct3-container{
+    width:254px;
+    height:100px;
+    background-color:#fbf2eb;
+    position: absolute;
+    left:453px;
+    top:30px;
+    border: 1px solid #000000;
+}
+.ct3-container h2{
+    text-align: center;
+    font-family: hakuyoxingshu7000;
+    font-size: 35px;
+    font-weight: 100;
+    color:#1d2f3b;
+}
 /*content-3分割线部分*/
 .content-3{
     width:1170px;
@@ -317,23 +346,22 @@ ul{
 }
 
 
-/*content-5*/
+/*content-5左半部分*/
 .content-5{
     width:1170px;
-    height:2873px;
+    height:2750px;
     margin: 0 auto;
     margin-top:150px;
 }
 .ct5-left{
     width:830.5px;
     height:100%;
-    background-color:#888888;
     text-align: center;
+    float: left;
 }
 .ct5-left .ct5-left-1{
     width:100%;
     height:1067px;
-    background-color: yellow;
     display: block;
 }
 
@@ -369,8 +397,330 @@ ul{
     font-family:"Tekton Pro";
     color:#888888;
 }
+.ct5-left-1-title a{
+    color:#000000;
+}
 .ct5-left-1-title h1{
     font-family: "Tekton Pro";
-    color:#000000;
     margin:10px auto;
+}
+.ct5-left-1 a{
+    height: 0;
+    width: 100%;
+}
+.ct5-left-12 img{
+    width: 100%;
+    height:592px;
+}
+.ct5-left-1 .ct5-left-13{
+    width:100%;
+    height:330px;
+}
+.ct5-left-13-text{
+    width:768.5px;
+    height:230px;
+}
+.ct5-left-13-text p{
+    margin-left: 40px;
+    font-family: "Tekton Pro";
+    font-size: 20px;
+    line-height: 40px;
+    color:#888888;
+}
+
+.ct5-left-13-sign{
+    width:50%;
+    height:40px;
+    margin-top: 30px;
+    margin-left: 197px;
+    border-left: 1px solid #888888;
+    border-right:1px solid #888888;
+    border-bottom:1px solid #888888;
+}
+.ct5-left-13-sign li{
+    display: inline;
+    padding: 4px;
+}
+
+.public-ct5{
+    width:415.25px;
+    height:767px;
+    float: left;
+    margin-top:70px;
+}
+.public-ct5-box{
+    width:400.25px;
+    height:719px;
+    margin:0 auto;
+}
+
+.public-ct5-box .ct5-title{
+    width: 100%;
+    height:114px;
+    position: relative;
+}
+.ct5-title a{
+    color:#000000;
+}
+.ct5-title .ct5-box-line1{
+     width:100px;
+     height:1px;
+     background-color: #888888;
+     position: absolute;
+     left:45px;
+     bottom:11px;
+    opacity: 0.3;
+ }
+.ct5-title .ct5-box-line2{
+    width:100px;
+    height:1px;
+    background-color: #888888;
+    position: absolute;
+    right:45px;
+    bottom:11px;
+    opacity: 0.3;
+}
+.ct5-title span{
+    font-family: "Tekton Pro";
+    color:#888888;
+}
+.ct5-title h1{
+    font-family: "Tekton Pro";
+    color: black;
+    margin:14px;
+}
+.public-ct5-box a,.public-ct5-box img{
+    margin-top: 20px;
+    width: 100%;
+    height:285px;
+}
+
+.public-ct5-box .ct5-text{
+    width:100%;
+    height:250px;
+}
+.ct5-text .ct5-text-1{
+    margin:0 auto;
+    width: 90%;
+    height:210px;
+}
+
+.ct5-text-1 p,.ct5-text-1 span{
+    font-family: "Tekton Pro";
+    font-size: 23px;
+    color:#888888;
+    line-height:35px;
+}
+.ct5-text .ct5-text-2{
+    width:50%;
+    height:60px;
+    margin-left: 100px;
+    border-left: 1px solid #888888;
+    border-right: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+.ct5-text-2 li{
+    display: inline;
+    padding: 4px;
+}
+.ct5-text-2 img{
+    width:20px;
+    height:20px;
+}
+
+
+/*content-5右半部分*/
+.ct5-right{
+    width:292.5px;
+    height:2142px;
+    float: right;
+}
+.ct5-right .ct5-right-title{
+    width:100%;
+    height:65px;
+    position: relative;
+}
+.ct5-right-line{
+    width:100%;
+    height:1px;
+    background-color: #000000;
+    position: absolute;
+    left:0;
+    top:32.5px;
+}
+ .ct5-right-11{
+    width:60%;
+    height:100%;
+    border:1px solid #000000;
+    background-color: #fbf2eb;
+     position: absolute;
+     left:20%;
+     text-align: center;
+}
+ .ct5-right-11 h2{
+     font-family: "Segoe Script";
+     font-weight: 100;
+     color:#1d2f3b;
+ }
+
+ .ct5-right-2{
+     width:100%;
+     height:500px;
+     margin-top: 20px;
+     text-align: center;
+     margin-bottom:80px;
+ }
+ .ct5-right-2 img{
+     width:140px;
+     height:140px;
+     border-radius: 100px;
+     margin-top:20px;
+ }
+ .ct5-right-2 h1{
+     font-family: "Tekton Pro";
+     margin:8px;
+ }
+.ct5-right-2 strong{
+    font-family: "Tekton Pro";
+    font-size: 20px;
+}
+.ct5-right-2 p{
+    font-family: "Tekton Pro";
+    font-size:22px;
+    line-height: 35px;
+    color: #888888;
+}
+.ct5-right-sign{
+    width:100%;
+    height:27px;
+}
+.ct5-right-sign li{
+    display: inline;
+    padding:12px;
+}
+.ct5-right-sign img{
+    width:19px;
+    height:19px;
+    border-radius: 0;
+}
+
+.ct5-right-3{
+    width:100%;
+    height:429px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.ct5-right-3-box{
+    width:100%;
+    height:142px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.ct5-right-3-box img{
+    width:90px;
+    height:90px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.ct5-right-3-box .ct5-right-3-text{
+    width:152.5px;
+    height:90px;
+    float: right;
+    margin-right:20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.ct5-right-3-text span{
+    font-family: "Tekton Pro";
+    color:#989898;
+}
+.ct5-right-3-text h3{
+    margin: 0;
+    font-family: "Tekton Pro";
+    margin-top: 10px;
+    color:#888888;
+}
+.ct5-right-4{
+    width:100%;
+    height:300px;
+    margin-top: 60px;
+    margin-bottom:40px;
+}
+.ct5-right-4 li{
+    padding:12px;
+}
+.ct5-right-4 a{
+    font-family: "Tekton Pro";
+    color:#888888;
+    font-size: 20px;
+}
+.ct5-right-5{
+    margin-top: 70px;
+}
+.ct5-right-5 img{
+    width:100%;
+    height:250px;
+}
+
+/*底部图片部分 content-6*/
+.content-6{
+    width:100%;
+    height:350px;
+}
+.content-6 li{
+    display: inline-block;
+   float: left;
+}
+.content-6 li img{
+    width:475px;
+    height:350px;
+}
+
+/*底部content-7*/
+.content-7{
+    width:1170px;
+    height:174px;
+    margin:100px auto;
+}
+.content-7 h2{
+    font-family: "Tekton Pro";
+    color:#1d2f3b;
+}
+.content-7 li{
+     padding: 4px;
+ }
+.content-7 li a:hover{
+    text-decoration: underline;
+}
+.content-7 a{
+    font-family: "Tekton Pro";
+    color:#888888;
+}
+.content-7-1{
+    width:389px;
+    height:100%;
+    float: left;
+}
+
+.content-7-1 p{
+    font-family: "Tekton Pro";
+    color: #888888;
+    font-size: 20px;
+    line-height: 35px;
+}
+.content-7-2{
+    width:389px;
+    height:100%;
+    float: left;
+}
+.content-7-2 h2,.content-7-2 li{
+    padding-left: 100px;
+}
+.content-7-3{
+    width:389px;
+    height:100%;
+    float: left;
+}
+.content-7-3 li{
+    font-family: "Tekton Pro";
+    color:#888888;
 }

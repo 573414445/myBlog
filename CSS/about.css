@@ -1,0 +1,36 @@
+/*about-1*/
+.About-1{
+    width:555px;
+    height:395px;
+    margin:30px auto;
+    text-align: center;
+}
+.About-1 img{
+    width:140px;
+    height:140px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+.About-1 h1{
+    font-family: "Tekton Pro";
+    margin:8px;
+}
+.About-1 strong{
+    font-family: "Tekton Pro";
+    font-size: 20px;
+}
+.About-1 p{
+    font-family: "Tekton Pro";
+    font-size: 20px;
+    line-height: 35px;
+    color:#888888;
+}
+.About-1 li{
+    display: inline;
+    padding: 15px;
+}
+.About-1 li img{
+    border-radius: 0;
+    width:19px;
+    height:19px;
+}

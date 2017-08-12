@@ -1,0 +1,93 @@
+/*contact-1左半部分*/
+.contact-1{
+    width: 1170px;
+    height:648px;
+    margin:30px auto;
+
+}
+.contact-left{
+    width:877px;
+    height:100%;
+    float: left;
+}
+.contact-left-1{
+    width:100%;
+    height:87px;
+}
+.contact-box{
+    width:430px;
+    height:87px;
+    float: left;
+}
+.contact-box label{
+    font-family: Vrinda;
+    font-size: 20px;
+    color:#888888;
+}
+.contact-box .form-control{
+    margin-top: 5px;
+    width:400px;
+    height:54px;
+    border-radius: 5px;
+    border-color: #D8D8D8;
+    font-size: 30px;
+}
+.contact-box .form-control:focus{
+    border-color: black;
+}
+
+.contact-left-2{
+    width:100%;
+    height:87px;
+    margin-top: 20px;
+}
+
+.contact-text{
+    width:835px;
+    height:274px;
+    margin-top:20px;
+}
+.contact-text label{
+    font-family: Vrinda;
+    font-size: 20px;
+    color:#888888;
+}
+.contact-text .contact-message{
+    font-size: 30px;
+    border-radius: 5px;
+    border-color: #D8D8D8;
+}
+.contact-text .contact-message:focus{
+    border-color: black;
+}
+
+.contact-btn{
+    width:835px;
+    height:46px;
+    margin-top: 20px;
+}
+.contact-btn .contact-btn1{
+    width:139px;
+    height:46px;
+    color:#ffffff;
+    font-family: Vrinda;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 5px;
+}
+.contact-btn .contact-btn1:hover{
+    background-color: #303030;
+}
+
+.contact-right{
+    width:292.5px;
+    height:648px;
+    float: right;
+}
+
+/*contact-1右半部分*/
+.contact-right-title{
+    width:100%;
+    height:65px;
+    position: relative;
+}
